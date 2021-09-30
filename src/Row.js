@@ -29,6 +29,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
     }
   }
 
+
   const handleClick = (movie) => {
     // console.table(movie?.title)
     if (trailerUrl) {
